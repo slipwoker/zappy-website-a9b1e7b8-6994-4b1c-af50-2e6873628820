@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://marozki.zappy5.app/sitemap.xml
+Sitemap: https://marozki-1.zappy5.app/sitemap.xml
