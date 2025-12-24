@@ -1,51 +1,62 @@
-# Business — Generative Engine Optimization Map
+# מארוצקי — Generative Engine Optimization Map
+
+> A קמעונאות ספרים business.
 
 ---
 
 ## Pages
 
 ### גלו את קסם הספרים הוינטג' — מארוצקי
-https://marozki-1.zappy5.app
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com
 מארוצקי - חנות ספרים עם קסם וינטג' ייחודי. מגוון ספרי לימוד אקדמיים במחירים זולים לסטודנטים והורים בישראל.
 
 ### הסיפור שלנו והערכים שלנו — מארוצקי
-https://marozki-1.zappy5.app/about
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/about
 גלו את הסיפור של מארוצקי - חנות ספרים עם קסם וינטג' ומסורת של למעלה משלושה עשורים. חנות ספרים לסטודנטים בישראל עם נשמה ואהבה לספרות.
 
 ### קטלוג ספרים מקיף ומגוון — מארוצקי
-https://marozki-1.zappy5.app/catalog
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/catalog
 עיינו בקטלוג הספרים המקיף של מארוצקי - ספרי לימוד אקדמיים במחירים זולים, ספרי חינוך, ספרות קלאסית ועכשווית. חנות ספרים לסטודנטים בישראל.
 
 ### צרו קשר איתנו היום — מארוצקי
-https://marozki-1.zappy5.app/contact
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/contact
 צרו קשר עם חנות ספרים מארוצקי. נשמח לעזור לכם למצוא ספרי לימוד אקדמיים במחירים זולים, ספרי חינוך וספרות איכותית. חנות ספרים לסטודנטים בישראל.
 
 ### אודות מארוצקי - חנות ספרים לסטודנטים ולקהל הרחב
-https://marozki-1.zappy5.app/about-971014
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/about-971014
 הכירו את מארוצקי, חנות ספרים מובילה בישראל המתמחה בספרי לימוד אקדמיים במחירים זולים, ספרות יפה וספרי עיון. הסיפור שלנו, החזון והמחויבות לסטודנטים ולקהילה.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://marozki-1.zappy5.app/privacy
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://marozki-1.zappy5.app/terms
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://marozki-1.zappy5.app/accessibility
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About מארוצקי
+מארוצקי is a business in the קמעונאות ספרים industry.
+
+## Target Audience
+- סטודנטים וקוראי נלהבים
+- הורים לספרי חינוך
+
+## Industry
+קמעונאות ספרים
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://marozki-1.zappy5.app/sitemap.xml
-- **Robots.txt**: https://marozki-1.zappy5.app/robots.txt
+- **Sitemap**: https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/sitemap.xml
+- **Robots.txt**: https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/robots.txt
