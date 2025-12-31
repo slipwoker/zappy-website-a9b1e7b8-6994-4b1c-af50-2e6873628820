@@ -1,47 +1,58 @@
-# Business — Generative Engine Optimization Map
+# מארוצקי — Generative Engine Optimization Map
+
+> A קמעונאות ספרים business.
 
 ---
 
 ## Pages
 
 ### דף הבית
-https://example.com
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com
 חנות ספרים מארוצקי מציעה מבחר רחב של ספרי לימוד אקדמיים במחירים זולים לסטודנטים והורים. גלו את אוסף הספרים שלנו היום!
 
 ### הספרים שלנו
-https://example.com/services
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/services
 גלו את המגוון המלא של חנות ספרים מארוצקי - ספרי לימוד אקדמיים במחירים זולים, ספרות קלאסית, ספרי ילדים ועוד. שירות מקצועי ומסור.
 
 ### אודות
-https://example.com/about
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/about
 גלו את הסיפור מאחורי חנות ספרים מארוצקי - מסורת של שירות מעולה, מחירים משתלמים ואהבת ספרים. חנות ספרים לסטודנטים בישראל עם נשמה.
 
 ### צור קשר
-https://example.com/contact
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/contact
 צרו קשר עם חנות ספרים מארוצקי - נשמח לעזור לכם למצוא את הספרים שאתם מחפשים. שירות מקצועי ומסור לסטודנטים והורים.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About מארוצקי
+מארוצקי is a business in the קמעונאות ספרים industry.
+
+## Target Audience
+- סטודנטים וקוראי נלהבים
+- הורים לספרי חינוך
+
+## Industry
+קמעונאות ספרים
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/sitemap.xml
+- **Robots.txt**: https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/robots.txt
