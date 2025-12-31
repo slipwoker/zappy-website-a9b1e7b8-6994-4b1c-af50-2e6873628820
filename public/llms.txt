@@ -1,62 +1,47 @@
-# מארוצקי — Generative Engine Optimization Map
-
-> A קמעונאות ספרים business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
-### גלו את קסם הספרים הוינטג' — מארוצקי
-https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com
-מארוצקי - חנות ספרים עם קסם וינטג' ייחודי. מגוון ספרי לימוד אקדמיים במחירים זולים לסטודנטים והורים בישראל.
+### דף הבית
+https://example.com
+חנות ספרים מארוצקי מציעה מבחר רחב של ספרי לימוד אקדמיים במחירים זולים לסטודנטים והורים. גלו את אוסף הספרים שלנו היום!
 
-### הסיפור שלנו והערכים שלנו — מארוצקי
-https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/about
-גלו את הסיפור של מארוצקי - חנות ספרים עם קסם וינטג' ומסורת של למעלה משלושה עשורים. חנות ספרים לסטודנטים בישראל עם נשמה ואהבה לספרות.
+### הספרים שלנו
+https://example.com/services
+גלו את המגוון המלא של חנות ספרים מארוצקי - ספרי לימוד אקדמיים במחירים זולים, ספרות קלאסית, ספרי ילדים ועוד. שירות מקצועי ומסור.
 
-### קטלוג ספרים מקיף ומגוון — מארוצקי
-https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/catalog
-עיינו בקטלוג הספרים המקיף של מארוצקי - ספרי לימוד אקדמיים במחירים זולים, ספרי חינוך, ספרות קלאסית ועכשווית. חנות ספרים לסטודנטים בישראל.
+### אודות
+https://example.com/about
+גלו את הסיפור מאחורי חנות ספרים מארוצקי - מסורת של שירות מעולה, מחירים משתלמים ואהבת ספרים. חנות ספרים לסטודנטים בישראל עם נשמה.
 
-### צרו קשר איתנו היום — מארוצקי
-https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/contact
-צרו קשר עם חנות ספרים מארוצקי. נשמח לעזור לכם למצוא ספרי לימוד אקדמיים במחירים זולים, ספרי חינוך וספרות איכותית. חנות ספרים לסטודנטים בישראל.
-
-### אודות מארוצקי - חנות ספרים לסטודנטים ולקהל הרחב
-https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/about-971014
-הכירו את מארוצקי, חנות ספרים מובילה בישראל המתמחה בספרי לימוד אקדמיים במחירים זולים, ספרות יפה וספרי עיון. הסיפור שלנו, החזון והמחויבות לסטודנטים ולקהילה.
+### צור קשר
+https://example.com/contact
+צרו קשר עם חנות ספרים מארוצקי - נשמח לעזור לכם למצוא את הספרים שאתם מחפשים. שירות מקצועי ומסור לסטודנטים והורים.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About מארוצקי
-מארוצקי is a business in the קמעונאות ספרים industry.
-
-## Target Audience
-- סטודנטים וקוראי נלהבים
-- הורים לספרי חינוך
-
-## Industry
-קמעונאות ספרים
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/sitemap.xml
-- **Robots.txt**: https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/robots.txt
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt

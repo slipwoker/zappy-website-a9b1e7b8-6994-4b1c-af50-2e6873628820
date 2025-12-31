@@ -45,31 +45,52 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
   
+  if (window.zappyContactFormLoaded) {
+  console.log('⚠️ Zappy contact form handler already loaded, skipping...');
+} else {
+  window.zappyContactFormLoaded = true;
+
   const contactForm = document.getElementById('contactForm');
   if (contactForm) {
-    contactForm.addEventListener('submit', function(e) {
+    contactForm.addEventListener('submit', async function(e) {
       e.preventDefault();
       
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
-      const phone = document.getElementById('phone').value;
-      const subject = document.getElementById('subject').value;
-      const message = document.getElementById('message').value;
+      const formData = new FormData(this);
+      const data = {
+        name: formData.get('name'),
+        email: formData.get('email'),
+        subject: formData.get('subject'),
+        message: formData.get('message'),
+        phone: formData.get('phone')
+      };
       
-      if (!name || !email || !phone) {
-        alert('נא למלא את כל השדות החובה');
-        return;
-      }
-      
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!emailRegex.test(email)) {
-        alert('נא להזין כתובת דוא"ל תקינה');
-        return;
+      // Send to Zappy backend API
+      try {
+        console.log('📧 Zappy: Sending contact form to backend...');
+        const response = await fetch('https://qaapi.zappy5.com/api/email/contact-form', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            websiteId: 'a9b1e7b8-6994-4b1c-af50-2e6873628820',
+            name: data.name || formData.get('name'),
+            email: data.email || formData.get('email'),
+            subject: data.subject || formData.get('subject') || 'Contact Form Submission',
+            message: data.message || formData.get('message'),
+            phone: data.phone || formData.get('phone') || null
+          })
+        });
+        const result = await response.json();
+        console.log('✅ Zappy: Email sent successfully', result);
+      } catch (error) {
+        console.error('❌ Zappy: Failed to send email', error);
+        // Don't break existing functionality
       }
       
       alert('תודה על פנייתך! נחזור אליך בהקדם.');
-      contactForm.reset();
+      this.reset();
     });
+  }
+}
   }
 });
 
@@ -339,64 +360,3 @@ window.onload = function() {
         }
     }, true);
 };
-
-
-// Zappy Contact Form API Integration (Fallback)
-(function() {
-    if (window.zappyContactFormLoaded) {
-        console.log('📧 Zappy contact form already loaded');
-        return;
-    }
-    window.zappyContactFormLoaded = true;
-
-    console.log('📧 Zappy: Initializing contact form API integration...');
-
-    // Find the contact form
-    const contactForm = document.querySelector('.contact-form');
-    if (!contactForm) {
-        console.log('⚠️ Zappy: No contact form found with class .contact-form');
-        return;
-    }
-
-    // Store original submit handler if exists
-    const originalOnSubmit = contactForm.onsubmit;
-
-    // Add Zappy API integration using capture phase to run before other handlers
-    contactForm.addEventListener('submit', async function(e) {
-        // Get form data
-        const formData = new FormData(this);
-        const data = Object.fromEntries(formData);
-
-        // Send to Zappy backend API (don't prevent default, let other handlers run)
-        try {
-            console.log('📧 Zappy: Sending contact form to backend API...');
-            const response = await fetch('http://localhost:5001/api/email/contact-form', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    websiteId: 'a9b1e7b8-6994-4b1c-af50-2e6873628820',
-                    name: data.name || '',
-                    email: data.email || '',
-                    subject: data.subject || 'Contact Form Submission',
-                    message: data.message || '',
-                    phone: data.phone || null
-                })
-            });
-
-            const result = await response.json();
-            
-            if (result.success) {
-                console.log('✅ Zappy: Contact form data sent successfully to backend');
-            } else {
-                console.log('⚠️ Zappy: Backend returned error:', result.error);
-            }
-        } catch (error) {
-            console.error('❌ Zappy: Failed to send to backend API:', error);
-            // Don't break the existing form submission
-        }
-    }, true); // Use capture phase to run before other handlers
-
-    console.log('✅ Zappy: Contact form API integration initialized');
-})();
