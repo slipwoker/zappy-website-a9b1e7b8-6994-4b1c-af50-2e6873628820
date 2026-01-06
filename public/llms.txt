@@ -1,24 +1,22 @@
-# מארוצקי — Generative Engine Optimization Map
-
-> A קמעונאות ספרים business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
-### דף הבית
+### גלו את עולם הספרים שלכם — מארוצקי
 https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com
 חנות ספרים מארוצקי מציעה מבחר רחב של ספרי לימוד אקדמיים במחירים זולים לסטודנטים והורים. גלו את אוסף הספרים שלנו היום!
 
-### הספרים שלנו
-https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/services
-גלו את המגוון המלא של חנות ספרים מארוצקי - ספרי לימוד אקדמיים במחירים זולים, ספרות קלאסית, ספרי ילדים ועוד. שירות מקצועי ומסור.
-
-### אודות
+### הסיפור שלנו ומסורת המצוינות — מארוצקי
 https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/about
 גלו את הסיפור מאחורי חנות ספרים מארוצקי - מסורת של שירות מעולה, מחירים משתלמים ואהבת ספרים. חנות ספרים לסטודנטים בישראל עם נשמה.
 
-### צור קשר
+### מגוון הספרים המקיף שלנו — מארוצקי
+https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/services
+גלו את המגוון המלא של חנות ספרים מארוצקי - ספרי לימוד אקדמיים במחירים זולים, ספרות קלאסית, ספרי ילדים ועוד. שירות מקצועי ומסור.
+
+### צרו קשר עם חנות הספרים שלנו — מארוצקי
 https://zappy-site-a9b1e7b8-6994-4b1c-af50.onrender.com/contact
 צרו קשר עם חנות ספרים מארוצקי - נשמח לעזור לכם למצוא את הספרים שאתם מחפשים. שירות מקצועי ומסור לסטודנטים והורים.
 
@@ -40,16 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About מארוצקי
-מארוצקי is a business in the קמעונאות ספרים industry.
-
-## Target Audience
-- סטודנטים וקוראי נלהבים
-- הורים לספרי חינוך
-
-## Industry
-קמעונאות ספרים
-
+## About Business
 ---
 
 # Additional Resources
