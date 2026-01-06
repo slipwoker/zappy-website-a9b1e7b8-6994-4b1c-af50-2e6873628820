@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# מארוצקי — Generative Engine Optimization Map
+
+> A קמעונאות ספרים business.
 
 ---
 
@@ -38,7 +40,16 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About מארוצקי
+מארוצקי is a business in the קמעונאות ספרים industry.
+
+## Target Audience
+- סטודנטים וקוראי נלהבים
+- הורים לספרי חינוך
+
+## Industry
+קמעונאות ספרים
+
 ---
 
 # Additional Resources
